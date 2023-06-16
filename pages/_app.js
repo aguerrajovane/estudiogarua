@@ -1,5 +1,7 @@
 import { DefaultSeo } from 'next-seo';
 import Layout from '../components/Layout.js'
+import "tw-elements/dist/css/tw-elements.min.css";
+
 import '../app/global.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -14,6 +16,7 @@ export default function MyApp({ Component, pageProps }) {
                     siteName: 'Garúa',
                   }}
             />
+            
             <Component {...pageProps} />
         </Layout>
     )
