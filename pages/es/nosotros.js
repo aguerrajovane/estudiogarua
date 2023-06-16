@@ -1,9 +1,10 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
+import Layout from '../../components/Layout.js'
 
 const Nosotros = () => {
   return (
-    <> 
+    <Layout> 
       <NextSeo
         title="Garúa | Nosotros"
         description="Estudio de arquitectura, diseño urbano y construcción."
@@ -20,7 +21,7 @@ const Nosotros = () => {
           <p className="text-base">Contenido</p>
           </div>
       </main>
-    </>
+    </Layout>
   )
 }
 export default Nosotros

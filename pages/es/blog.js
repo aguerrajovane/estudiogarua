@@ -1,9 +1,10 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
+import Layout from '../../components/Layout.js'
 
 const Blog = () => {
   return (
-    <> 
+    <Layout> 
       <NextSeo
         title="Garúa | Blog"
         description="Estudio de arquitectura, diseño urbano y construcción."
@@ -20,7 +21,7 @@ const Blog = () => {
           <p className="text-base">Contenido</p>
           </div>
       </main>
-    </>
+    </Layout>
   )
 }
 export default Blog

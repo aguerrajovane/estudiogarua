@@ -1,5 +1,6 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
+import Layout from '../../components/Layout.js'
 import dynamic from "next/dynamic";
 
 
@@ -7,7 +8,7 @@ const DynamicDatepicker = dynamic(() => import("../../components/myDatepicker"),
 
 const Home = () => {
   return (
-    <> 
+    <Layout> 
       <NextSeo
         title="Garúa | Inicio"
         description="Estudio de arquitectura, diseño urbano y construcción."
@@ -26,7 +27,7 @@ const Home = () => {
           <DynamicDatepicker />
 
       </main>
-    </>
+    </Layout>
   )
 }
 export default Home

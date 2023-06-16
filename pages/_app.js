@@ -1,12 +1,11 @@
 import { DefaultSeo } from 'next-seo';
-import Layout from '../components/Layout.js'
 import "tw-elements/dist/css/tw-elements.min.css";
 
 import '../app/global.css'
 
 export default function MyApp({ Component, pageProps }) {
     return (
-        <Layout>
+        <>
             <DefaultSeo
                 title= "Garúa" 
                 openGraph={{
@@ -18,6 +17,6 @@ export default function MyApp({ Component, pageProps }) {
             />
             
             <Component {...pageProps} />
-        </Layout>
+        </>
     )
   }
