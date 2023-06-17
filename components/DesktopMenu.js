@@ -12,7 +12,7 @@ const Modal = () => {
     <>
       {/* Botón de activación del modal */}
       <button
-        className="w-12 h-12 flex items-center justify-center text-gray-800"
+        className="w-12 h-12 flex items-center justify-center text-white"
         onClick={toggleModal}
       >
         {/* Ícono de hamburguesa */}
@@ -36,16 +36,16 @@ const Modal = () => {
           <div className="flex items-center justify-center text-center">
             <div className="fixed" onClick={toggleModal}></div>
 
-            <div className="bg-black w-full mx-auto min-h-screen">
+            <div className="bg-black text-white w-full mx-auto min-h-screen">
               {/* Cabezera del modal */}
               <div className="flex items-center justify-between pt-8 pb-6 w-full max-w-6xl mx-auto">
                 {/* Logotipo */}
                 <Link href="/es">
-                  <img src="/logo.svg" alt="Logo" className="relative dark:invert mx-3 h-4 lg:h-6" />
+                  <img src="/logo.svg" alt="Logo" className="relative invert mx-3 h-4 lg:h-6" />
                 </Link>
                 <div className="flex w-1/2 justify-between items-center">
                     {/* Botón de idioma */}
-                  <button className="flex items-end	">
+                  <button className="flex items-end">
                     <p>Es</p>
                     <svg
                       className="w-4 h-4 ml-4"

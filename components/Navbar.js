@@ -8,25 +8,12 @@ function Navbar() {
   const toggleMenuMobile = () => {
     setShowMenuMobile(!showMenuMobile);
   };
-  let isMenuOpen = false;
-  const handleToggleMenu = () => {
-    isMenuOpen = !isMenuOpen;
-    const menuElement = document.getElementById("desktop-menu");
-
-    if (menuElement) {
-      if (isMenuOpen) {
-        menuElement.classList.remove("hidden");
-      } else {
-        menuElement.classList.add("hidden");
-      }
-    }
-  };
 
   return (
-    <nav className="z-10 border-b border-gray-300 bg-gradient-to-b pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30 text-sm lg:flex">
+    <nav className="z-10 sticky top-0 pb-6 pt-8 text-sm lg:flex">
       <div className="flex w-full max-w-6xl mx-auto items-center justify-between">
         <Link href="/es">
-          <img src="/logo.svg" alt="Logo" className="relative dark:invert mx-3 h-4 lg:h-6" />
+          <img src="/logo.svg" alt="Logo" className="relative invert mx-3 h-4 lg:h-6" />
         </Link>
         <div className="block lg:hidden justify-items-end">
           <button
@@ -49,19 +36,19 @@ function Navbar() {
           <div className="text-sm lg:justify-end">
             <Link
               href="/es/nosotros"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:border-b ml-12 p-2"
+              className="block mt-4 lg:inline-block lg:mt-0 ml-12 p-2"
               >
               Estudio
             </Link>
             <Link
               href="/es/servicios"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:border-b ml-12 p-2"
+              className="block mt-4 lg:inline-block lg:mt-0 ml-12 p-2"
               >
               Servicios
             </Link>
             <Link
               href="/es/portafolio"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:border-b ml-12 p-2"
+              className="block mt-4 lg:inline-block lg:mt-0 ml-12 p-2"
               >
               Portafolio
             </Link>
