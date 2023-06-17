@@ -3,7 +3,6 @@ import { NextSeo } from 'next-seo';
 import Layout from '../../components/Layout.js'
 import dynamic from "next/dynamic";
 
-
 const DynamicDatepicker = dynamic(() => import("../../components/myDatepicker"), { ssr: false });
 
 const Home = () => {
@@ -23,6 +22,7 @@ const Home = () => {
         <div className="min-h-screen">
           <h1 className="text-3xl font-bold mb-4">Inicio</h1>
           <p className="text-base">Contenido</p>
+          
           </div>
           <DynamicDatepicker />
 

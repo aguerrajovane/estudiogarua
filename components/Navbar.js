@@ -72,31 +72,14 @@ function Navbar() {
               Contacto
             </Link>
           </div>
-          <div className="block justify-items-end">
-          <button
-            className="flex items-center px-3 py-2 ml-12 rounded"
-            onClick={handleToggleMenu}
-            >
-            <svg
-              className="fill-current h-5 w-5"
-              viewBox="0 0 20 20"
-              xmlns="<http://www.w3.org/2000/svg>"
-              >
-              <title>Menu Desktop</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
+          {/*  Desktop menu */}
+          <div className="ml-12 ">
+            <DesktopMenu />
+          </div>
         </div>
       </div>
       
-      {/*  Desktop menu */}
-      <div 
-        id="desktop-menu"
-        className="hidden"
-        >
-        <DesktopMenu />
-      </div>
+      
 
 
       {/*  Mobile menu */}
