@@ -12,7 +12,7 @@ const Modal = () => {
     <>
       {/* Botón de activación del modal */}
       <button
-        className="w-12 h-12 flex items-center justify-center text-white"
+        className="w-12 h-12 flex items-center justify-center text-white stroke-white"
         onClick={toggleModal}
       >
         {/* Ícono de hamburguesa */}
@@ -117,8 +117,11 @@ const Modal = () => {
               </div>
               </div>
               {/* Footer */}
-              <div class="relative h-32 w-full max-w-6xl mx-auto ">
-                <div class="absolute bottom-0 h-16">Footer</div>
+              <div class="relative h-32 w-full max-w-6xl mx-auto">
+                <p class="absolute bottom-0 pb-6"> 
+                  © 2023. Estudio Garúa SA.
+                </p>
+                <a class="absolute bottom-0 right-0 pb-6" href="mailto:info@estudiogarua.com">hola@estudiogarua.com</a>
               </div>
             </div>
           </div>
