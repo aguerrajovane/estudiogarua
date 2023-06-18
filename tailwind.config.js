@@ -7,6 +7,11 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
+    safelist: [
+      'animate-[fade-in_1s_ease-in-out]', 
+      'animate-[fade-in-down_1s_ease-in-out]',
+      'animate-[slide-right_1s_ease-in-out]'
+    ],
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
