@@ -20,7 +20,7 @@ const ButtonHoverRight = ({ children }) => {
         data-te-ripple-init
         data-te-ripple-color="light"
         className={`py-2 flex ${
-        isDarkMode ? 'text-black' : 'text-white'
+        isDarkMode ? 'text-white' : 'text-white'
       }`}
     >
       {children}
@@ -33,9 +33,8 @@ const ButtonHoverRight = ({ children }) => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="h-6 w-6">
-        <path
-            d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+        className="h-10 w-10 ml-2">
+        <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
         </svg>
     </button>
   );

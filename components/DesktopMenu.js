@@ -1,12 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [animationClass, setAnimationClass] = useState('');
 
   const toggleModal = () => {
-    setIsOpen(!isOpen);
+    setIsAnimating(true);
+    setTimeout(() => {
+      setIsOpen(!isOpen);
+    }, 100); // Ajusta el tiempo de espera según tus necesidades
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      setAnimationClass('slideInDown');
+    } else {
+      setAnimationClass('slideOutUp');
+      setTimeout(() => {
+        setIsAnimating(false);
+      }, 500); // Ajusta el tiempo de espera según la duración de la animación
+    }
+  }, [isOpen]);
 
   return (
     <>
@@ -21,7 +37,6 @@ const Modal = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="none"
-          
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -32,7 +47,7 @@ const Modal = () => {
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed top-0 left-0 right-0">
+        <div className={`fixed top-0 left-0 right-0 ${animationClass}`}>
           <div className="flex items-center justify-center text-center">
             <div className="fixed" onClick={toggleModal}></div>
 
@@ -44,7 +59,7 @@ const Modal = () => {
                   <img src="/logo.svg" alt="Logo" className="relative invert mx-3 h-4 lg:h-6" />
                 </Link>
                 <div className="flex w-1/2 justify-between items-center">
-                    {/* Botón de idioma */}
+                  {/* Botón de idioma */}
                   <button className="flex items-end">
                     <p>Es</p>
                     <svg
@@ -57,7 +72,7 @@ const Modal = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                      <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                     </svg>
                   </button>
                   {/* Botón para cerrar el modal */}
@@ -80,48 +95,48 @@ const Modal = () => {
               </div>
               {/* Contenido del modal */}
               <div className="flex flex-col items-end">
-              <div className="flex w-1/2 right-0 py-6">
-                {/* Lista de navegación */}
-                <nav className="flex flex-col items-start gap-2">
-                  <Link
-                    href="/es/nosotros"
-                    className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
+                <div className="flex w-1/2 right-0 py-6">
+                  {/* Lista de navegación */}
+                  <nav className="flex flex-col items-start gap-2">
+                    <Link
+                      href="/es/nosotros"
+                      className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
                     >
-                    Estudio
-                  </Link>
-                  <Link
-                    href="/es/servicios"
-                    className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
+                      Estudio
+                    </Link>
+                    <Link
+                      href="/es/servicios"
+                      className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
                     >
-                    Servicios
-                  </Link>
-                  <Link
-                    href="/es/portafolio"
-                    className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
+                      Servicios
+                    </Link>
+                    <Link
+                      href="/es/portafolio"
+                      className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
                     >
-                    Portafolio
-                  </Link>
-                  <Link
-                    href="/es/blog"
-                    className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
+                      Portafolio
+                    </Link>
+                    <Link
+                      href="/es/blog"
+                      className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
                     >
-                    Blog
-                  </Link>
-                  <Link
-                    href="/es/contacto"
-                    className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
+                      Blog
+                    </Link>
+                    <Link
+                      href="/es/contacto"
+                      className="block px-0 py-4 text-5xl hover:underline hover:underline-offset-8"
                     >
-                    Contacto
-                  </Link>
-                </nav>
-              </div>
+                      Contacto
+                    </Link>
+                  </nav>
+                </div>
               </div>
               {/* Footer */}
-              <div class="relative h-32 w-full max-w-6xl mx-auto">
-                <p class="absolute bottom-0 pb-6"> 
-                  © 2023. Estudio Garúa SA.
-                </p>
-                <a class="absolute bottom-0 right-0 pb-6" href="mailto:info@estudiogarua.com">hola@estudiogarua.com</a>
+              <div className="relative h-32 w-full max-w-6xl mx-auto">
+                <p className="absolute bottom-0 pb-6">© 2023. Estudio Garúa SA.</p>
+                <a className="absolute bottom-0 right-0 pb-6" href="mailto:info@estudiogarua.com">
+                  hola@estudiogarua.com
+                </a>
               </div>
             </div>
           </div>

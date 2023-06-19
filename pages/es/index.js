@@ -23,7 +23,7 @@ const Home = () => {
         <div className="min-h-screen">
           <h1 className="text-3xl font-bold mb-4">Inicio</h1>
           <p className="text-base">Contenido</p>
-          <DynamicButtonHoverRight> Ver mas </DynamicButtonHoverRight>
+          <DynamicButtonHoverRight> Ver más </DynamicButtonHoverRight>
           </div>
           <DynamicDatepicker />
 

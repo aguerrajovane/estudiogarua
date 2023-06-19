@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import DesktopMenu from './DesktopMenu';
+import dynamic from "next/dynamic";
+
+const DynamicDesktopMenu= dynamic(() => import("../components/DesktopMenu"), { ssr: false });
+
 
 function Navbar() {
   const [showMenuMobile, setShowMenuMobile] = useState(false);
@@ -61,7 +64,7 @@ function Navbar() {
           </div>
           {/*  Desktop menu */}
           <div className="ml-12 ">
-            <DesktopMenu />
+            <DynamicDesktopMenu />
           </div>
         </div>
       </div>
