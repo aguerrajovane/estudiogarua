@@ -1,6 +1,6 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
-import Layout from '../../components/Layout.js'
+import Layout from '../../components/es/Layout.js'
 
 const Nosotros = () => {
   return (

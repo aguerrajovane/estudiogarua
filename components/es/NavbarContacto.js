@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import dynamic from "next/dynamic";
 
-const DynamicDesktopMenu= dynamic(() => import("../components/DesktopMenu"), { ssr: false });
+const DynamicDesktopMenuContacto= dynamic(() => import("../es/DesktopMenuContacto"), { ssr: false });
 
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
     <nav className="z-10 sticky top-0 pb-6 pt-8 text-sm lg:flex">
       <div className="flex w-full max-w-6xl mx-auto items-center justify-between">
         <Link href="/es">
-          <img src="/logo.svg" alt="Logo" className="relative invert mx-3 h-4 lg:h-6" />
+          <img src="/logo.svg" alt="Logo" className="relative mx-3 h-4 lg:h-6" />
         </Link>
         <div className="block lg:hidden justify-items-end">
           <button
@@ -64,7 +64,7 @@ function Navbar() {
           </div>
           {/*  Desktop menu */}
           <div className="ml-12 ">
-            <DynamicDesktopMenu />
+            <DynamicDesktopMenuContacto />
           </div>
         </div>
       </div>
