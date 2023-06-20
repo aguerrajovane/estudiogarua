@@ -16,7 +16,7 @@ const Home = () => {
           title: 'Garúa',
           description: 'Architecture, Urban design and Construction Studio.',
           siteName: 'Garúa',
-          locale: 'en',
+          locale: 'en_US',
         }}
       />
       <main className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">

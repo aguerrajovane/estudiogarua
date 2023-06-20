@@ -5,12 +5,17 @@ const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [animationClass, setAnimationClass] = useState('');
+  const [isLanguageMenuVisible, setIsLanguageMenuVisible] = useState(false);
 
   const toggleModal = () => {
     setIsAnimating(true);
     setTimeout(() => {
       setIsOpen(!isOpen);
     }, 100); // Ajusta el tiempo de espera según tus necesidades
+  };
+
+  const toggleLanguageMenu = () => {
+    setIsLanguageMenuVisible(!isLanguageMenuVisible);
   };
 
   useEffect(() => {
@@ -55,26 +60,35 @@ const Modal = () => {
               {/* Cabezera del modal */}
               <div className="flex items-center justify-between pt-8 pb-6 w-full max-w-6xl mx-auto">
                 {/* Logotipo */}
-                <Link href="/es">
+                <Link href="/en">
                   <img src="/logo.svg" alt="Logo" className="relative invert mx-3 h-4 lg:h-6" />
                 </Link>
                 <div className="flex w-1/2 justify-between items-center">
                   {/* Botón de idioma */}
-                  <button className="flex items-end">
-                    <p>En</p>
-                    <svg
-                      className="w-4 h-4 ml-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="1"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                    </svg>
-                  </button>
+                  <div className="relative">
+                    <button className="flex items-end" onClick={toggleLanguageMenu}>
+                      <p>En</p>
+                      <svg
+                        className="w-4 h-4 ml-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg>
+                    </button>
+                    {isLanguageMenuVisible && (
+                      <div className="absolute top-8 right-0 w-24 bg-black text-white text-center">
+                        <Link href="/es">
+                          <button className="w-full py-2 pl-4">Es</button>
+                        </Link>
+                      </div>
+                    )}
+                  </div>
                   {/* Botón para cerrar el modal */}
                   <button className="pr-4 h-12 rounded focus:outline-none" onClick={toggleModal}>
                     {/* Ícono de "x" */}
@@ -134,7 +148,7 @@ const Modal = () => {
               {/* Footer */}
               <div className="relative h-32 w-full max-w-6xl mx-auto">
                 <p className="absolute bottom-0 pb-6">© 2023. Estudio Garúa SA.</p>
-                <a className="absolute bottom-0 right-0 pb-6" href="mailto:info@estudiogarua.com">
+                <a className="absolute bottom-0 right-0 pb-6" href="mailto:hello@estudiogarua.com">
                   hello@estudiogarua.com
                 </a>
               </div>
