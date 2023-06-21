@@ -1,6 +1,12 @@
 import React from "react";
 import { Carousel, initTE } from "tw-elements";
 import { useEffect } from "react";
+import Image from "next/image";
+
+import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn.jpg'
+import MRC from '../../public/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn.jpg'
+import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn.jpg'
+import YHOAC from '../../public/images/portafolio/yoga-house-on-a-cliff/yhoac-tn.jpg'
 
 const MyCarousel = () => {
   useEffect(() => {
@@ -39,46 +45,75 @@ const MyCarousel = () => {
           className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-te-target="#carouselExampleIndicators"
+          data-te-slide-to="3"
+          className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 3"
+        ></button>
       </div>
 
       {/* Carousel items */}
-      <div className="relative h-full w-full overflow-hidden after:clear-both after:block after:content-['']">
+      <div className="relative h-full w-full  overflow-hidden after:clear-both after:block after:content-['']">
         {/* First item */}
         <div
           className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item
           data-te-carousel-active
         >
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-            className="block w-full"
-            alt="Wild Landscape"
-          />
+          <div className="block w-full">
+            <Image
+                  src={MuseoNomada}
+                  width={1200}
+                  height={900}
+                  alt="Museo Nómada"
+                />
+          </div>
         </div>
         {/* Second item */}
         <div
           className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item
         >
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-            className="block w-full"
-            alt="Camera"
-          />
+          <div className="block w-full">
+            <Image
+                  src={CPRDV}
+                  width={1200}
+                  height={900}
+                  alt="Centro Pastoral Red de Vida"
+                />
+          </div>
         </div>
         {/* Third item */}
         <div
           className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           data-te-carousel-item
         >
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-            className="block w-full"
-            alt="Exotic Fruits"
-          />
+          <div className="block w-full">
+            <Image
+                  src={YHOAC}
+                  width={1200}
+                  height={900}
+                  alt="Yoga House on a Cliff"
+                />
+          </div>
+        </div>
+        <div
+          className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item
+        >
+          <div className="block w-full">
+            <Image
+                  src={MRC}
+                  width={1200}
+                  height={900}
+                  alt="Mayukwayukwa Refugee Camp"
+                />
+          </div>
         </div>
       </div>
-
+      
       {/* Carousel controls - prev item */}
       <button
         className="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
