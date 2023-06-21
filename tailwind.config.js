@@ -13,6 +13,10 @@ module.exports = {
       'animate-[slide-right_1s_ease-in-out]',
       'animate-[slide-in-down_1s_ease-in-out]'
     ],
+    colors: {
+      'white': '#f5f5f7',
+      'black': '#1d1d1f',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
