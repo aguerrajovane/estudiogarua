@@ -1,6 +1,12 @@
 import React from "react";
+import { Carousel, initTE } from "tw-elements";
+import { useEffect } from "react";
 
-const Carousel = () => {
+const MyCarousel = () => {
+  useEffect(() => {
+    initTE({ Carousel });
+  }, []);
+
   return (
     <div
       id="carouselExampleIndicators"
@@ -36,7 +42,7 @@ const Carousel = () => {
       </div>
 
       {/* Carousel items */}
-      <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+      <div className="relative h-full w-full overflow-hidden after:clear-both after:block after:content-['']">
         {/* First item */}
         <div
           className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -131,4 +137,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default MyCarousel;

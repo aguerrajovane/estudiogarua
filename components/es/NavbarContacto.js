@@ -63,7 +63,7 @@ function Navbar() {
             </Link>
           </div>
           {/*  Desktop menu */}
-          <div className="ml-12 ">
+          <div className="ml-12 mr-2">
             <DynamicDesktopMenuContacto />
           </div>
         </div>
