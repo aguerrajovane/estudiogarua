@@ -18,16 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #1d1d1f;
 }
 
 .es-contacto {
-  background-color: #fff;
+  background-color: #f5f5f7;
 }
 
 /* Animación de entrada (slide in down) */
