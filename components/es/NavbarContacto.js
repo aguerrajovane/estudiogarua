@@ -16,8 +16,10 @@ function Navbar() {
         <Link href="/es">
           <img src="/logo.svg" alt="Logo" className="relative mx-3 h-4 lg:h-6" />
         </Link>
-        <div className="ml-12 mr-2">
+        <div className="block lg:hidden justify-items-end">
+          <div className="ml-12 mr-2">
             <DynamicMobileMenuContacto />
+          </div>
         </div>
         <div
           className="w-full hidden block lg:flex lg:items-center lg:w-auto"

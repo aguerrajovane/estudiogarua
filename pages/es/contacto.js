@@ -3,7 +3,7 @@ import { NextSeo } from 'next-seo';
 import '../../app/global.css'
 import NavbarContacto from '../../components/es/NavbarContacto'
 
-import Footer from '../../components/es/Footer.js'
+import FooterContacto from '../../components/es/FooterContacto'
 import ContactForm from '../../components/es/ContactForm'
 
 const contacto = () => {
@@ -40,7 +40,9 @@ const contacto = () => {
             <ContactForm />
           </div>
         </main>
-      <Footer />
+        <div className="text-black">
+          <FooterContacto />
+        </div>
       </div>
     </>
   )
