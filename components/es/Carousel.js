@@ -66,7 +66,7 @@ const MyCarousel = () => {
             <Image
                   src={MuseoNomada}
                   width={1200}
-                  height={900}
+                  height={800}
                   alt="Museo Nómada"
                 />
           </div>
@@ -80,7 +80,7 @@ const MyCarousel = () => {
             <Image
                   src={CPRDV}
                   width={1200}
-                  height={900}
+                  height={800}
                   alt="Centro Pastoral Red de Vida"
                 />
           </div>
@@ -94,7 +94,7 @@ const MyCarousel = () => {
             <Image
                   src={YHOAC}
                   width={1200}
-                  height={900}
+                  height={800}
                   alt="Yoga House on a Cliff"
                 />
           </div>
@@ -107,7 +107,7 @@ const MyCarousel = () => {
             <Image
                   src={MRC}
                   width={1200}
-                  height={900}
+                  height={800}
                   alt="Mayukwayukwa Refugee Camp"
                 />
           </div>

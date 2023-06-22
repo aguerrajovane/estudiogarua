@@ -11,7 +11,8 @@ module.exports = {
       'animate-[fade-in_1s_ease-in-out]', 
       'animate-[fade-in-down_1s_ease-in-out]',
       'animate-[slide-right_1s_ease-in-out]',
-      'animate-[slide-in-down_1s_ease-in-out]'
+      'animate-[slide-in-down_1s_ease-in-out]',
+      'animate-[fade-in-up_1s_ease-in-out]'
     ],
     colors: {
       'white': '#f5f5f7',

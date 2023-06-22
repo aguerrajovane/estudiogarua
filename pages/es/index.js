@@ -1,20 +1,28 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
+
 import Navbar from '../../components/es/Navbar';
 import Footer from '../../components/es/Footer';
 import dynamic from "next/dynamic";
 import Link from 'next/link.js';
 import Image from 'next/image'
+import CarouselImages from '../../components/es/CarouselImages'
 
 import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn.jpg'
 import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn.jpg'
 import DiaDeLaTierra from '../../public/images/blog/dia-de-la-tierra-2023/DSC08385.jpg'
 
 const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
-const DynamicCarousel = dynamic(() => import("../../components/es/Carousel"), { ssr: false });
+
 const DynamicCallToAction = dynamic(() => import("../../components/es/CallToAction.js"), { ssr: false });
 
 const Home = () => {
+  const images = [
+    "/images/portafolio/museo-nomada/mn-tn.jpg",
+    "/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn.jpg",
+    "/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn.jpg",
+    "/images/portafolio/yoga-house-on-a-cliff/yhoac-tn.jpg",
+  ];
   return (
     <> 
       <NextSeo
@@ -33,12 +41,16 @@ const Home = () => {
         {/* Header */}
         <header className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
           <div className="w-full md:w-3/4  pb-12 pt-0 md:pb-24 md:pt-10">
-            <h1 className="text-5xl md:text-6xl font-bold leading-snug mb-4">Creamos espacios sostenibles.</h1>
+            <h1 
+            className="text-5xl md:text-6xl font-bold leading-snug mb-4 fade-in-up"
+            
+            >
+              Diseñamos y construimos espacios sostenibles.</h1>
             <p className="text-base leading-relaxed">Estudio de arquitectura + diseño urbano + construcción</p>
           </div>
         </header>
-        <div className="w-full max-w-fit mx-auto ">
-          <DynamicCarousel />
+        <div className="w-full mx-auto xl:max-w-7xl h-96 sm:h-screen">
+          <CarouselImages images={images} />
         </div>
 
         <div className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
@@ -71,7 +83,7 @@ const Home = () => {
 
             {/* Proyecto 1 */}
             <Link href="/es/portafolio/museo-nomada">
-              <card className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug">
+              <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug">
                 <div className="w-full sm:w-1/3">
                 <Image
                   src={MuseoNomada}
@@ -85,12 +97,12 @@ const Home = () => {
                   <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Museo Nómada</h3>
                   <p className="text-xs">Ancón, Panamá</p>
                 </div>
-              </card>
+              </div>
             </Link>
             
             {/* Proyecto 2 */}
             <Link href="/es/portafolio/centro-pastoral-red-de-vida">
-              <card className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug my-6">
+              <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug my-6">
                 <div className="w-full sm:w-1/3">
                 <Image
                   src={CPRDV}
@@ -104,7 +116,7 @@ const Home = () => {
                   <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Centro Pastoral Red de Vida</h3>
                   <p className="text-xs">Santa Fe, Darién</p>
                 </div>
-              </card>
+              </div>
             </Link>
             
             <Link href="/es/servicios">
@@ -125,7 +137,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row">
             {/* Entrada 1 */}
             <Link href="/es/blog/dia-de-la-tierra-2023">
-                <card className="w-full sm:w-1/3 pr-4 flex flex-col justify-center mb-10 leading-normal">
+                <div className="w-full sm:w-1/3 pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
                     src={DiaDeLaTierra}
@@ -138,11 +150,11 @@ const Home = () => {
                     <span className="text-xs">22 de abril de 2023</span>
                     <h3 className="text-xl mb-2 mt-2 hover:underline hover:underline-offset-8">Comprometidos con la sostenibilidad: Garúa comparte su experiencia en el Día de la Tierra</h3>
                   </div>
-                </card>
+                </div>
               </Link>
               {/* Entrada 2 */}
             <Link href="/es/blog/dia-de-la-tierra-2023">
-                <card className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
+                <div className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
                     src={MuseoNomada}
@@ -155,11 +167,11 @@ const Home = () => {
                     <span className="text-xs">22 de abril de 2023</span>
                     <h3 className="text-xl mb-2 mt-2 hover:underline hover:underline-offset-8">Comprometidos con la sostenibilidad: Garúa comparte su experiencia en el Día de la Tierra</h3>
                   </div>
-                </card>
+                </div>
               </Link>
               {/* Entrada 3 */}
             <Link href="/es/blog/dia-de-la-tierra-2023">
-                <card className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
+                <div className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
                     src={MuseoNomada}
@@ -172,7 +184,7 @@ const Home = () => {
                     <span className="text-xs">22 de abril de 2023</span>
                     <h3 className="text-xl mb-2 mt-2 hover:underline hover:underline-offset-8">Comprometidos con la sostenibilidad: Garúa comparte su experiencia en el Día de la Tierra</h3>
                   </div>
-                </card>
+                </div>
               </Link>
           </div>
             
@@ -182,6 +194,24 @@ const Home = () => {
         </div>
       </main>
       <Footer />
+      <style jsx>{`
+        .fade-in-up {
+          animation: fade-in-up 0.8s ease-out;
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </>
   )
 }
