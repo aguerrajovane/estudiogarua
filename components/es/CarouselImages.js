@@ -38,8 +38,8 @@ const Carousel = ({ images }) => {
           }`}
         >
           <Image
-            src={image}
-            alt={`Image ${index}`}
+            src={image.src}
+            alt={image.alt}
             layout="fill"
             objectFit="cover"
           />

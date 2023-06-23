@@ -8,8 +8,8 @@ import Link from 'next/link.js';
 import Image from 'next/image'
 import CarouselImages from '../../components/es/CarouselImages'
 
-import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn.jpg'
-import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn.jpg'
+import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn-min.jpg'
+import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
 import DiaDeLaTierra from '../../public/images/blog/dia-de-la-tierra-2023/DSC08385.jpg'
 
 const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
@@ -18,11 +18,24 @@ const DynamicCallToAction = dynamic(() => import("../../components/es/CallToActi
 
 const Home = () => {
   const images = [
-    "/images/portafolio/museo-nomada/mn-tn.jpg",
-    "/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn.jpg",
-    "/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn.jpg",
-    "/images/portafolio/yoga-house-on-a-cliff/yhoac-tn.jpg",
+    {
+      src: "/images/portafolio/museo-nomada/mn-tn-min.jpg",
+      alt: "Museo Nómada"
+    },
+    {
+      src: "/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn-min.jpeg",
+      alt: "Mayukwayukwa Refugee Camp"
+    },
+    {
+      src: "/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg",
+      alt: "Centro Pastoral Red de Vida"
+    },
+    {
+      src: "/images/portafolio/yoga-house-on-a-cliff/yhoac-tn-min.jpg",
+      alt: "Yoga House on a Cliff"
+    }
   ];
+  
   return (
     <> 
       <NextSeo
@@ -49,7 +62,7 @@ const Home = () => {
             <p className="text-base leading-relaxed">Estudio de arquitectura + diseño urbano + construcción</p>
           </div>
         </header>
-        <div className="w-full mx-auto xl:max-w-7xl h-96 sm:h-screen">
+        <div className="w-full mx-auto xl:max-w-screen-2xl h-96 sm:h-screen">
           <CarouselImages images={images} />
         </div>
 
