@@ -62,6 +62,7 @@ const Home = () => {
             <p className="text-base leading-relaxed">Estudio de arquitectura + diseño urbano + construcción</p>
           </div>
         </header>
+        {/* Contenido */}
         <div className="w-full mx-auto xl:max-w-screen-2xl h-96 sm:h-screen">
           <CarouselImages images={images} />
         </div>
@@ -132,7 +133,7 @@ const Home = () => {
               </div>
             </Link>
             
-            <Link href="/es/servicios">
+            <Link href="/es/portafolio">
               <div className="mt-6 sm:mt-10">
               <DynamicButtonHoverRight> Ver todos </DynamicButtonHoverRight>
               </div>
@@ -144,7 +145,7 @@ const Home = () => {
         <DynamicCallToAction />
 
         {/* Blog */}
-        <div className="flex flex-col mx-auto w-full max-w-6xl mt-10 pl-4 pr-0 sm:pr-4 lg:pl-28 justify-center text-white">
+        <div className="flex flex-col mx-auto w-full max-w-6xl mt-10 pl-4 pr-0 sm:pr-4 lg:pl-28 justify-center text-white mb-6">
           <span className="mb-10 text-xs mt-0 sm:mt-10">Noticias del estudio</span>
           <h2 className="mb-10 text-4xl sm:6xl">Blog</h2>
           <div className="flex flex-col sm:flex-row">

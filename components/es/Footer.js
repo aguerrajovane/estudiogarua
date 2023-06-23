@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className="z-10 w-full items-center text-sm border-t border-gray-900 mt-6">
+    <div className="z-10 w-full items-center text-sm border-t border-gray mt-0">
       <div className="flex flex-col sm:flex-row w-full max-w-6xl mx-auto justify-between px-4 pb-6 pt-8">
         {/* Logo */}
         <Link href="/es">

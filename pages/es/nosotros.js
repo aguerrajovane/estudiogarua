@@ -1,10 +1,20 @@
 import React from 'react'
 import { NextSeo } from 'next-seo';
-import Layout from '../../components/es/Layout.js'
+import Navbar from '../../components/es/Navbar.js';
+import Footer from '../../components/es/Footer.js';
+import Link from 'next/link.js';
+import dynamic from "next/dynamic";
+import Image from 'next/image'
+
+const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
+const DynamicCallToAction = dynamic(() => import("../../components/es/CallToAction.js"), { ssr: false });
+
+import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn-min.jpg'
+import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
 
 const Nosotros = () => {
   return (
-    <Layout> 
+    <> 
       <NextSeo
         title="Garúa | Nosotros"
         description="Estudio de arquitectura, diseño urbano y construcción."
@@ -15,6 +25,7 @@ const Nosotros = () => {
           siteName: 'Garúa',
         }}
       />
+      <Navbar />
       <main className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
         {/* Header */}
         <header className="relative h-screen my-0 py-0">
@@ -31,8 +42,70 @@ const Nosotros = () => {
         <p className="text-base leading-relaxed	">Con un equipo altamente capacitado y experimentado en diversos campos del diseño y la construcción, Garúa se destaca por su enfoque multidisciplinario y su pasión por la excelencia. Nos enorgullece ofrecer servicios de calidad que superen las expectativas de nuestros clientes y que den vida a proyectos arquitectónicos únicos y funcionales.</p>
         <br />
         </div>
+        <Link href="/es/servicios">
+          <DynamicButtonHoverRight> Servicios </DynamicButtonHoverRight>
+        </Link>
+        {/* Fundadores */}
+        <div className="w-full h-full sm:h-screen flex flex-col justify-center">
+            <h2 className="mb-10 text-xs">Fundadores</h2>
+            <div className='flex flex-col sm:flex-row'>
+              {/* Founder 1 */}
+              <div className="w-full max-w-sm flex flex-col justify-center leading-normal md:leading-snug my-6 sm:mr-8">
+                <div className="w-full">
+                <Image
+                  src={CPRDV}
+                  width={640}
+                  height={640}
+                  alt="Centro Pastoral Red de Vida"
+                />
+                </div>
+                <div className="mt-4 ml-0 w-full  sm: flex flex-col justify-end">
+                  <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6" >Héctor Ayarza</h3>
+                  <p className="text-xs leading-relaxed">Héctor es un arquitecto y profesor, su pasión radica en el diseño social y cultural, centrándose en espacios públicos y explorando nuevas formas de entender la arquitectura.</p>
+                </div>
+              </div>
+              
+              {/* Founder 2 */}
+              <div className="w-full max-w-sm flex flex-col justify-center leading-normal md:leading-snug my-6 sm:ml-8">
+                <div className="w-full">
+                <Image
+                  src={CPRDV}
+                  width={640}
+                  height={640}
+                  alt="Centro Pastoral Red de Vida"
+                />
+                </div>
+                <div className="mt-4 ml-0 w-full sm: flex flex-col justify-end">
+                  <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6">Álvaro Guerra Jované</h3>
+                  <p className="text-xs leading-relaxed">Álvaro es arquitecto apasionado por el diseño innovador, dispuesto a hacer realidad tus ideas y convertirlas en increíbles creaciones arquitectónicas.</p>
+                </div>
+              </div>
+
+            </div>
+            
+        </div>
       </main>
-    </Layout>
+      <DynamicCallToAction />
+      <Footer />
+      <style jsx>{`
+        .fade-in-up {
+          animation: fade-in-up 0.8s ease-out;
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
+    </>
   )
 }
 export default Nosotros
