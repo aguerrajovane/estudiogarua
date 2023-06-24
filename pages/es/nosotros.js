@@ -9,8 +9,8 @@ import Image from 'next/image'
 const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
 const DynamicCallToAction = dynamic(() => import("../../components/es/CallToAction.js"), { ssr: false });
 
-import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn-min.jpg'
-import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
+import ayarzah from '../../public/images/nosotros/ayarzah.jpeg'
+import aguerrajovane from '../../public/images/nosotros/aguerrajovane.jpeg'
 
 const Nosotros = () => {
   return (
@@ -53,10 +53,10 @@ const Nosotros = () => {
               <div className="w-full max-w-sm flex flex-col justify-center leading-normal md:leading-snug my-6 sm:mr-8">
                 <div className="w-full">
                 <Image
-                  src={CPRDV}
+                  src={ayarzah}
                   width={640}
                   height={640}
-                  alt="Centro Pastoral Red de Vida"
+                  alt="Héctor Ayarza"
                 />
                 </div>
                 <div className="mt-4 ml-0 w-full  sm: flex flex-col justify-end">
@@ -69,10 +69,10 @@ const Nosotros = () => {
               <div className="w-full max-w-sm flex flex-col justify-center leading-normal md:leading-snug my-6 sm:ml-8">
                 <div className="w-full">
                 <Image
-                  src={CPRDV}
+                  src={aguerrajovane}
                   width={640}
                   height={640}
-                  alt="Centro Pastoral Red de Vida"
+                  alt="Álvaro Guerra Jované"
                 />
                 </div>
                 <div className="mt-4 ml-0 w-full sm: flex flex-col justify-end">

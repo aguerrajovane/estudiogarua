@@ -6,6 +6,8 @@ import Image from 'next/image'
 
 import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn-min.jpg'
 import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
+import MRC from '../../public/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn-min.jpeg'
+import YHOAC from '../../public/images/portafolio/yoga-house-on-a-cliff/yhoac-tn-min.jpg'
 const Portafolio = () => {
   return (
     <Layout> 
@@ -29,7 +31,7 @@ const Portafolio = () => {
 
           {/* Proyecto 1 */}
           <Link href="/es/portafolio/museo-nomada">
-            <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug">
+            <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug my-6">
               <div className="w-full sm:w-1/3">
               <Image
                 src={MuseoNomada}
@@ -39,9 +41,8 @@ const Portafolio = () => {
               />
               </div>
               <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                <span className="text-xs">01</span>
                 <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Museo Nómada</h3>
-                <p className="text-xs">Ancón, Panamá</p>
+                <p className="text-xs">Ciudad de Panamá, Panamá</p>
               </div>
             </div>
           </Link>
@@ -58,9 +59,9 @@ const Portafolio = () => {
               />
               </div>
               <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                <span className="text-xs">02</span>
+                
                 <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Centro Pastoral Red de Vida</h3>
-                <p className="text-xs">Santa Fe, Darién</p>
+                <p className="text-xs">Darién, Panamá</p>
               </div>
             </div>
           </Link>
@@ -70,16 +71,16 @@ const Portafolio = () => {
             <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug my-6">
               <div className="w-full sm:w-1/3">
               <Image
-                src={CPRDV}
+                src={MRC}
                 width={640}
                 height={640}
                 alt="Mayukwayukwa Refugee Camp"
               />
               </div>
               <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                <span className="text-xs">03</span>
+                
                 <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Mayukwayukwa Refugee Camp</h3>
-                <p className="text-xs">Shibanga, África</p>
+                <p className="text-xs">Provincia del Oeste, Zambia</p>
               </div>
             </div>
           </Link>
@@ -89,14 +90,14 @@ const Portafolio = () => {
             <div className="w-full flex flex-col justify-center sm:flex-row leading-normal md:leading-snug my-6">
               <div className="w-full sm:w-1/3">
               <Image
-                src={CPRDV}
+                src={YHOAC}
                 width={640}
                 height={640}
                 alt="Centro Pastoral Red de Vida"
               />
               </div>
               <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                <span className="text-xs">04</span>
+                
                 <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Yoga House on a Cliff</h3>
                 <p className="text-xs">Oleiros, Portugal</p>
               </div>

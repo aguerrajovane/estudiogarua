@@ -13,7 +13,20 @@ export default function MyApp({ Component, pageProps }) {
                     locale: 'es_PA',
                     url: 'https://www.estudiogarua.com/es/',
                     siteName: 'Garúa',
+                    images: [
+                        {
+                          url: "/public/images/logo.png",
+                          width: 500,
+                          height: 500,
+                          alt: "Garúa",
+                        },
+                      ],
                   }}
+                twitter={{
+                    handle: '@estudiogarua',
+                    site: 'Garúa',
+                    cardType: 'summary_large_image',
+                }}
             />
             
             <Component {...pageProps} />

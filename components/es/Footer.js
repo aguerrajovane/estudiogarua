@@ -45,7 +45,7 @@ const Footer = () => {
             href="/es/privacidad"
             className="block px-0 py-1 text-base hover:underline hover:underline-offset-8"
           >
-            Politica de privacidad
+            Política de Privacidad
           </Link>
           <Link
             href="https://www.instagram.com/estudiogarua"

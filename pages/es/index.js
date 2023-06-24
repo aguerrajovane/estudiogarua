@@ -107,7 +107,7 @@ const Home = () => {
                 />
                 </div>
                 <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                  <span className="text-xs">01</span>
+                  
                   <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Museo Nómada</h3>
                   <p className="text-xs">Ancón, Panamá</p>
                 </div>
@@ -126,7 +126,7 @@ const Home = () => {
                 />
                 </div>
                 <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
-                  <span className="text-xs">02</span>
+                  
                   <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">Centro Pastoral Red de Vida</h3>
                   <p className="text-xs">Santa Fe, Darién</p>
                 </div>
