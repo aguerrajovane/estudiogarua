@@ -47,7 +47,7 @@ const Carousel = ({ images }) => {
       ))}
 
       <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10 p-2 rounded-full bg-gray-800 bg-opacity-50 text-white focus:outline-none hover:bg-opacity-75"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 z-1 p-2 rounded-full bg-gray-800 bg-opacity-50 text-white focus:outline-none hover:bg-opacity-75"
         onClick={goToPrevious}
       >
         <svg
@@ -67,7 +67,7 @@ const Carousel = ({ images }) => {
       </button>
 
       <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10 p-2 rounded-full bg-gray-800 bg-opacity-50 text-white focus:outline-none hover:bg-opacity-75"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 z-1 p-2 rounded-full bg-gray-800 bg-opacity-50 text-white focus:outline-none hover:bg-opacity-75"
         onClick={goToNext}
       >
         <svg
