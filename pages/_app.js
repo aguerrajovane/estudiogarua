@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
                     siteName: 'Garúa',
                     images: [
                         {
-                          url: "/public/images/logo.png",
+                          url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png",
                           width: 500,
                           height: 500,
                           alt: "Garúa",
