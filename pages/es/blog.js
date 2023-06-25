@@ -22,7 +22,7 @@ const Blog = () => {
         </header>
         {/* Contenido */}
         <div className="w-full mt-10 sm:mt-0 md:w-1/2 h-full sm:min-h-screen flex flex-col justify-center">
-          <p className="text-base leading-relaxed	">Contenido</p>
+          <p className="text-base leading-relaxed	">Contenido static pages</p>
         <br />
         
         </div>
