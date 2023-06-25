@@ -52,22 +52,19 @@ const Home = () => {
       <main className="">
         
         {/* Header */}
-        <header className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
+        <header className="flex flex-col w-full max-w-6xl mx-auto justify-between sm:pl-28 sm: py-8 pl-4 pr-4">
           <div className="w-full md:w-3/4  pb-12 pt-0 md:pb-24 md:pt-10">
-            <h1 
-            className="text-5xl md:text-6xl font-bold leading-snug mb-4 fade-in-up"
-            
-            >
+            <h1 className="text-5xl leading-snug md:leading-normal md:text-6xl font-bold  mb-4 fade-in-up">
               Diseñamos y construimos espacios sostenibles.</h1>
             <p className="text-base leading-relaxed">Estudio de arquitectura + diseño urbano + construcción</p>
           </div>
         </header>
         {/* Contenido */}
-        <div className="w-full mx-auto xl:max-w-screen-2xl h-96 sm:h-screen">
+        <div className="w-full mx-auto xl:max-w-screen-2xl h-96 sm:h-[28rem] md:h-[32rem] lg:h-screen">
           <CarouselImages images={images} />
         </div>
 
-        <div className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
+        <div className="flex flex-col w-full max-w-6xl mx-auto justify-between sm:pl-28 sm: py-8 pl-4 pr-4">
           {/* Nosotros */}
           <div className="w-full mt-10 sm:mt-0 md:w-1/2 h-full sm:h-screen flex flex-col justify-center">
             <h2 className="mb-10 text-xs">El estudio</h2>
@@ -145,7 +142,7 @@ const Home = () => {
         <DynamicCallToAction />
 
         {/* Blog */}
-        <div className="flex flex-col mx-auto w-full max-w-6xl mt-10 pl-4 pr-0 sm:pr-4 lg:pl-28 justify-center text-white mb-6">
+        <div className="flex flex-col mx-auto w-full max-w-6xl mt-10 pl-4 pr-0 sm:pr-4 sm:pl-28 justify-center text-white mb-6">
           <span className="mb-10 text-xs mt-0 sm:mt-10">Noticias del estudio</span>
           <h2 className="mb-10 text-4xl sm:6xl">Blog</h2>
           <div className="flex flex-col sm:flex-row">
@@ -167,7 +164,7 @@ const Home = () => {
                 </div>
               </Link>
               {/* Entrada 2 */}
-            <Link href="/es/blog/dia-de-la-tierra-2023">
+            <Link href="/blog/dia-de-la-tierra-2023">
                 <div className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
@@ -184,7 +181,7 @@ const Home = () => {
                 </div>
               </Link>
               {/* Entrada 3 */}
-            <Link href="/es/blog/dia-de-la-tierra-2023">
+            <Link href="/blog/dia-de-la-tierra-2023">
                 <div className="hidden w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
@@ -202,7 +199,7 @@ const Home = () => {
               </Link>
           </div>
             
-            <Link href="/es/blog">
+            <Link href="/blog">
               <DynamicButtonHoverRight> Ver más </DynamicButtonHoverRight>
             </Link>
         </div>

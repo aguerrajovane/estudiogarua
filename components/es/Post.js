@@ -1,19 +1,32 @@
 import Link from 'next/link'
+import dynamic from "next/dynamic"
+import Image from 'next/image';
+
+const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
 
 export default function Post({ post }) {
   return (
-    <div className=''>
-      <img src={post.frontmatter.cover_image} alt='' />
-
-      <div className=''>{post.frontmatter.date}</div>
-
-      <h3>{post.frontmatter.title}</h3>
-
-      <p>{post.frontmatter.excerpt}</p>
-
-      <Link href={`/blog/${post.slug}`}>
-        Ver más
-      </Link>
+    <div className="w-full sm:w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
+      <div className="w-full max-w-xs">
+      <div className="w-full">
+        <Image
+          src={post.frontmatter.cover_image} 
+          width={640}
+          height={640}
+          alt={post.frontmatter.alt}
+        />
+        </div>
+      <div className="mt-4 ml-0 w-full"> 
+        <p className='text-xs'>{post.frontmatter.date}</p>
+        <h3 className="text-xl mb-2 mt-2">{post.frontmatter.title}</h3>
+        <p className="text-sm mb-4">{post.frontmatter.excerpt}</p>
+      </div>
+      <div>
+        <Link href={`/blog/${post.slug}`}>
+            <DynamicButtonHoverRight> Ver más </DynamicButtonHoverRight>
+        </Link>
+      </div>
+      </div>
     </div>
   )
 }

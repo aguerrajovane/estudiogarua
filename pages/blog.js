@@ -26,7 +26,7 @@ export default function Blog ({ posts }) {
           <h1 className="absolute bottom-60 text-5xl md:text-6xl font-bold leading-snug mb-4 fade-in-up">Blog</h1>
         </header>
         {/* Contenido */}
-        <div className="w-full mt-10 sm:mt-0 md:w-1/2 h-full sm:min-h-screen flex flex-col justify-center">
+        <div className="w-full mt-10 sm:mt-0 h-full sm:min-h-screen flex flex-col justify-start">
           <div className="">
             {posts.map((post, index) => (
               <Post key={index} post={post} />
