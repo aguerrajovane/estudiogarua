@@ -2,11 +2,11 @@ import React from 'react'
 import { NextSeo } from 'next-seo';
 import Layout from '../../../components/es/Layout.js'
 
-const museoNomada = () => {
+const MN = () => {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Mayukwayukwa Refugee Camp"
+        title="Garúa | Museo Nómada"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/blog',
@@ -18,7 +18,7 @@ const museoNomada = () => {
      <main className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
         {/* Header */}
         <header className="relative h-screen my-0 py-0">
-          <h1 className="absolute bottom-60 text-5xl md:text-6xl font-bold leading-snug mb-4 hyphens-auto fade-in-up" lang="es">Mayukwayukwa Refugee Camp</h1>
+          <h1 className="absolute bottom-60 text-5xl md:text-6xl font-bold leading-snug mb-4 hyphens-auto fade-in-up" lang="es"> Museo Nómada</h1>
         </header>
         {/* Contenido */}
         <div className="w-full mt-10 sm:mt-0 md:w-1/2 h-full sm:min-h-screen flex flex-col justify-center">
@@ -48,4 +48,4 @@ const museoNomada = () => {
     </Layout>
   )
 }
-export default museoNomada
+export default MN

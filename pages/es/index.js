@@ -10,7 +10,7 @@ import CarouselImages from '../../components/es/CarouselImages'
 
 import MuseoNomada from '../../public/images/portafolio/museo-nomada/mn-tn-min.jpg'
 import CPRDV from '../../public/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
-import DiaDeLaTierra from '../../public/images/blog/dia-de-la-tierra-2023/DSC08385.jpg'
+import DiaDeLaTierra from '../../public/images/posts/dia-de-la-tierra-2023/DSC08385.jpg'
 
 const DynamicButtonHoverRight = dynamic(() => import("../../components/es/ButtonHoverRight"), { ssr: false });
 
@@ -150,7 +150,7 @@ const Home = () => {
           <h2 className="mb-10 text-4xl sm:6xl">Blog</h2>
           <div className="flex flex-col sm:flex-row">
             {/* Entrada 1 */}
-            <Link href="/es/blog/dia-de-la-tierra-2023">
+            <Link href="/blog/dia-de-la-tierra-2023">
                 <div className="w-full sm:w-1/3 pr-4 flex flex-col justify-center mb-10 leading-normal">
                   <div className="w-full">
                   <Image
