@@ -24,7 +24,7 @@ const Portafolio = () => {
       <main className="flex flex-col w-full max-w-6xl mx-auto justify-between lg:pl-28 sm: py-8 pl-4 pr-4">
         {/* Header */}
         <header className="relative h-screen my-0 py-0">
-          <h1 className="absolute bottom-60 text-5xl md:text-6xl font-bold leading-snug mb-4 fade-in-up">Nuestro trabajo</h1>
+          <h1 className="absolute bottom-80 sm:bottom-60 text-5xl md:text-6xl font-bold leading-snug mb-4 fade-in-up">Nuestro trabajo</h1>
         </header>
         {/* Portafolio */}
         <div className="w-full h-full flex flex-col justify-center">

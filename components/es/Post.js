@@ -6,8 +6,8 @@ const DynamicButtonHoverRight = dynamic(() => import("../../components/es/Button
 
 export default function Post({ post }) {
   return (
-    <div className="w-full sm:w-full pr-4 flex flex-col justify-center mb-10 leading-normal">
-      <div className="w-full max-w-xs">
+    <div className="w-full sm:w-full pr-0 sm:pr-4 flex flex-col justify-center mb-10 leading-normal">
+      <div className="w-full sm:max-w-xs">
       <div className="w-full">
         <Image
           src={post.frontmatter.cover_image} 

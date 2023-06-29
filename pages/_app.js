@@ -7,7 +7,8 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <>
             <DefaultSeo
-                title= "Garúa" 
+                title= "Garúa"
+                description="Estudio de arquitectura, diseño urbano y construcción"
                 openGraph={{
                     type: 'website',
                     locale: 'es_PA',

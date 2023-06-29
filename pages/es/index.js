@@ -37,17 +37,25 @@ const Home = () => {
   ];
   
   return (
-    <> 
+    <>
       <NextSeo
-        title="Garúa | Inicio"
-        description="Estudio de arquitectura, diseño urbano y construcción."
-        openGraph={{
-          url: 'https://www.estudiogarua.com/es',
-          title: 'Garúa',
-          description: 'Estudio de arquitectura, diseño urbano y construcción.',
-          siteName: 'Garúa',
-        }}
-      />
+          title= "Garúa | Inicio"
+          description="Estudio de arquitectura, diseño urbano y construcción"
+          openGraph={{
+              type: 'website',
+              locale: 'es_PA',
+              url: 'https://www.estudiogarua.com/es/',
+              siteName: 'Garúa',
+              images: [
+                  {
+                    url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png",
+                    width: 500,
+                    height: 500,
+                    alt: "Garúa",
+                  },
+                ],
+            }}
+        />
       <Navbar />
       <main className="">
         
@@ -60,7 +68,7 @@ const Home = () => {
           </div>
         </header>
         {/* Contenido */}
-        <div className="w-full mx-auto xl:max-w-screen-2xl h-96 sm:h-[28rem] md:h-[32rem] lg:h-screen">
+        <div className="w-full mx-auto xl:max-w-screen-2xl h-64 sm:h-[28rem] md:h-[32rem] lg:h-screen">
           <CarouselImages images={images} />
         </div>
 

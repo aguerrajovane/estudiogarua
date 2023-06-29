@@ -27,21 +27,30 @@ export default function PostPage({
             publishedTime: date,
             author: author,
             tags: tags
-          }
+          },
+          images: [
+            {
+              url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png", // hacerlo dinamico
+              width: 500,
+              height: 500,
+              alt: "Garúa", // hacerlo dinamico
+            },
+          ],
         }}
       />
       <main className="flex flex-col w-full max-w-6xl mx-auto justify-between sm:pl-28 sm: py-8 pl-4 pr-4">
         {/*Side*/}
         <div className="sticky top-28 invisible lg:visible">
-          <div className="absolute right-0 top-0 w-[15rem]">
+          <div className="absolute bg-black right-0 top-0 w-[15rem]">
             {/*Author*/}
             <p className="text-xl font-bold">Autor</p>
-            <div className="rounded-full mt-2">
-              <Image
+            <div className="mt-2">
+              <img
                 src={author_image} 
                 width={80}
                 height={80}
                 alt={author}
+                className="rounded-full"
               />
             </div>
             <p className="mt-4 text-base">{author}</p>
@@ -77,12 +86,13 @@ export default function PostPage({
               {/*Author*/}
               <p className="text-sm font-bold">Autor</p>
               <div className="flex justify-start items-start">
-                <div className="rounded-full mt-2">
-                  <Image
+                <div className="mt-2">
+                  <img
                     src={author_image} 
                     width={80}
                     height={80}
                     alt={author}
+                    className="rounded-full"
                   />
                 </div>
                 <div className="flex flex-col ml-4 justify-start items-start">
