@@ -46,14 +46,6 @@ const Home = () => {
               locale: 'es_PA',
               url: 'https://www.estudiogarua.com/es/',
               siteName: 'Garúa',
-              images: [
-                  {
-                    url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png",
-                    width: 500,
-                    height: 500,
-                    alt: "Garúa",
-                  },
-                ],
             }}
         />
       <Navbar />

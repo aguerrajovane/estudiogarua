@@ -14,7 +14,7 @@ export default function Blog ({ posts }) {
         title="Garúa | Blog"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
-          url: 'https://www.estudiogarua.com/es/blog',
+          url: 'https://www.estudiogarua.com/blog',
           title: 'Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
