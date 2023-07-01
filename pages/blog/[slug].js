@@ -38,7 +38,7 @@ export default function PostPage({
           ],
         }}
       />
-      <main className="sm: py-8 pl-4 pr-4 flex flex-row-reverse ">
+      <main className="sm: py-8 pl-4 pr-4 flex flex-row-reverse max-w-6xl mx-auto">
         {/*Side*/}
         <div className="sticky top-[9rem] ml-auto right-0 h-full invisible lg:visible hidden lg:block">
           <div className="w-[15rem] bg-black">
@@ -68,9 +68,9 @@ export default function PostPage({
             </div>
           </div>
         </div>
-        <div className="w-full max-w-6xl mx-auto justify-between sm:pl-28 ">
+        <div className="w-full max-w-6xl mx-auto justify-between lg:pl-28 ">
           {/*Contenido*/}
-          <div className="w-full mt-0 sm:max-w-lg">
+          <div className="flex flex-col max-w-6xl mx-auto justify-betwee w-full mt-0 sm:max-w-lg">
             <p className="mb-6 text-sm">Publicado el {date}</p>
             <h1 className="text-2xl md:text-4xl leading-normal md:leading-snug	mb-6">{title}</h1>
             <div className="w-full">
