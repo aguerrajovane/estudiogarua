@@ -43,8 +43,7 @@ export default function PostPage({
         <div className="sticky top-[9rem] ml-auto right-0 h-full invisible lg:visible hidden lg:block">
           <div className="w-[15rem] bg-black">
             {/*Author*/}
-            <p className="text-xl font-bold">Autor</p>
-            <div className="mt-2">
+            <div className="mt-0 mx-1">
               <img
                 src={author_image} 
                 width={80}
@@ -53,11 +52,10 @@ export default function PostPage({
                 className="rounded-full"
               />
             </div>
-            <p className="mt-4 text-base">{author}</p>
-            <p className="mt-2 text-xs leading-relaxed">{author_description}</p>
+            <p className="mt-4 text-base mx-1">{author}</p>
+            <p className="mt-2 text-xs leading-relaxed mx-1">{author_description}</p>
             {/*Tags*/}
             <div className="mt-6">
-              <p className="text-xl font-bold">Tags</p>
               <div className="flex flex-wrap">
                 {topics.map((topic, index) => (
                   <p key={index} className="px-4 py-2 mt-2 mx-1 w-fit text-xs bg-gray rounded-full">
@@ -70,24 +68,16 @@ export default function PostPage({
         </div>
         <div className="w-full max-w-6xl mx-auto justify-between lg:pl-28 ">
           {/*Contenido*/}
-          <div className="flex flex-col max-w-6xl mx-auto justify-betwee w-full mt-0 sm:max-w-lg">
-            <p className="mb-6 text-sm">Publicado el {date}</p>
-            <h1 className="text-2xl md:text-4xl leading-normal md:leading-snug	mb-6">{title}</h1>
-            <div className="w-full">
-              <Image
-                src={cover_image} 
-                width={640}
-                height={640}
-                alt={alt}
-              />
-            </div>
+          <div className="flex flex-col max-w-6xl mx-auto lg:mx-0 w-full mt-0 sm:max-w-lg">
+            <p className="mb-4 text-sm">{date}</p>
+            <h1 className="text-2xl md:text-4xl leading-normal md:leading-snug mb-4">{title}</h1>
+            <p className="mb-4">{excerpt}</p>
             {/*Side mobile*/}
             <div className="visible lg:invisible lg:hidden mt-4">
-              <div className="w-full">
+              <div className="w-full mt-2">
                 {/*Author*/}
-                <p className="text-sm font-bold">Autor</p>
                 <div className="flex justify-start items-start">
-                  <div className="mt-2">
+                  <div className="mt-0">
                     <img
                       src={author_image} 
                       width={50}
@@ -97,13 +87,12 @@ export default function PostPage({
                     />
                   </div>
                   <div className="flex flex-col ml-4 justify-start items-start">
-                    <p className="mt-1 text-sm">{author}</p>
+                    <p className="mt-0 text-sm">{author}</p>
                     <p className="mt-2 text-xs leading-relaxed">{author_description}</p>
                   </div>
                 </div>
                 {/*Tags*/}
-                <div className="mt-6">
-                  <p className="text-sm font-bold">Tags</p>
+                <div className="mt-2">
                   <div className="flex flex-wrap mb-6">
                     {topics.map((topic, index) => (
                       <p key={index} className="px-4 py-2 mt-2 mx-1 w-fit text-xs bg-gray rounded-full">
@@ -113,6 +102,14 @@ export default function PostPage({
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="w-full">
+              <Image
+                src={cover_image} 
+                width={640}
+                height={640}
+                alt={alt}
+              />
             </div>
             {/*Markdown*/}
             <div className="mt-4">

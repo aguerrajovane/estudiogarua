@@ -5,16 +5,16 @@ status: 'Construido'
 excerpt: ''
 cover_image: '/images/portafolio/centro-pastoral-red-de-vida/cprdv-tn-min.jpeg'
 alt: 'Centro Pastoral Red de Vida'
-author:
+authors:
 - 'Héctor Ayarza'
-- 'Álvaro Guerra Jované'
 - 'Jacqueline Beitia'
-lugar: 'Darien, Panamá'
-tipo: 'Centro social'
-area: '380.00'
-Fotos:
+- 'Álvaro Guerra Jované'
+location: 'Darien, Panamá'
+type: 'Centro social'
+area: '380.00 m²'
+photosAuthors:
 - 'Fernando Alda'
-Publicaciones:
+publications:
 - 'Archello'
 - 'Fernando Alda'
 ---

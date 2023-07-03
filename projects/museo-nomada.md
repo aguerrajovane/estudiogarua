@@ -5,18 +5,18 @@ status: 'Construido'
 excerpt: ''
 cover_image: '/images/portafolio/museo-nomada/mn-tn-min.jpg'
 alt: 'Museo Nómada'
-author:
-- 'Álvaro Guerra Jované'
+authors:
 - 'Héctor Ayarza'
+- 'Álvaro Guerra Jované'
 - 'Ámbar Calvo'
 - 'Omar Vanega'
-lugar: 'Ciudad de Panamá'
-tipo: 'Arquitectura cultural'
-area: '75.00'
-Fotos:
+location: 'Ciudad de Panamá, Panamá'
+type: 'Arquitectura cultural'
+area: '75.00 m²'
+photosAuthors:
 - 'Fernando Alda'
 - 'Cine Animal'
-Publicaciones:
+publications:
 - 'Archdaily'
 - 'Divisare'
 - 'Archello'
@@ -27,34 +27,27 @@ Publicaciones:
 - 'Bienal Iberoamericana de Diseño'
 ---
 
-En Garúa estamos comprometidos con la arquitectura sostenible y la preservación del medio ambiente. Por ello, fue un honor para nosotros formar parte del evento organizado por la <a href="https://instagram.com/oneapanama" target="_blank"> <u>Organización Nacional de Estudiantes de Arquitectura de Panamá (ONEA)</u></a> para conmemorar el Día de la Tierra en el Centro de Visitantes <a href="https://pipelineroad.org/en/" target="_blank"><u>Panama Rainforest Discovery Center</u></a> en Gamboa.
+El Museo de Arte Contemporáneo de Panamá, desde hace unos años, tiene la misión de democratizar el arte en Panamá. La estrategia era “llevar” el museo a todas partes del país, evitar que este importante monumento de la cultura panameña continuase centralizado y quieto, esperando que todos los ciudadanos fuesen a él.
 
 <br />
 
-![Héctor Ayarza conversa con estudiantes de arquitectura](/images/posts/dia-de-la-tierra-2023/DSC08373.jpg)
-*Héctor Ayarza conversa con estudiantes de arquitectura*
+La idea generadora del proyecto es la de reutilizar dos contenedores de carga estandarizados de 20’ (6.096m) para acomodar las dependencias del museo en un nuevo formato móvil. El primer contenedor solo fue intervenido para crear una sala de exposición con su cuarto de máquinas/depósito. El segundo recibió un tratamiento más complejo desde su composición estructural, generando una puerta en toda la superficie lateral en su eje longitudinal, de esta manera se crea un espacio para talleres educativos con un acceso y ocupación diáfana del espacio frente a él.
 
 <br />
 
-Tuve la oportunidad de compartir junto a Patrick Dillon, también arquitecto, experiencias y proyectos en ejecución relacionados con la arquitectura tropical y su relación con el medio ambiente. Los estudiantes de arquitectura de Panamá tuvieron la oportunidad de dialogar con nosotros y conocer más sobre la importancia de construir de manera sostenible en un entorno tropical.
+El interior de este espacio es completamente tratado y acabado con Oriented Standard Board (OBS) Plywood, desde los cerramientos acabados, hasta la partición completa de los muebles necesarios del taller. Ambos contenedores están aislados térmica y acústicamente para lograr altos niveles de confort al tratarse, naturalmente, de una extensión del museo central. El exterior, fue intervenido por el artista panameño Cisco Merel quien fue el encargado de dar color a las 4 caras longitudinales de los contenedores.
 
 <br />
 
-![Patrick Dillon y Héctor Ayarza conversan con estudiantes de arquitectura](/images/posts/dia-de-la-tierra-2023/DSC08385.jpg)
-*Patrick Dillon y Héctor Ayarza conversan con estudiantes de arquitectura*
+Este museo satélite transporta sus exhibiciones acomodando todo su contenido en el interior de los mismos, cada pieza se embala cuidadosamente para su transporte. El recorrido se hace con la ayuda de un vehículo pesado, articulado, con una grúa integrada para emplazar los volúmenes en su destino final. Desde su primera temporada en 2019, esta obra ha viajado a más de diez ciudades y recibido a más de 18 mil visitantes.
 
 <br />
 
-La actividad no solo se limitó a las ponencias de arquitectura. Los estudiantes también realizaron un recorrido guiado por los guías del centro, quienes les mostraron la biodiversidad de la zona y les explicaron la importancia de cuidar el ecosistema. Además, se contó con la presencia de Carlos Saavedra, quien impartió una charla sobre el <a href="https://lnt.org/" target="_blank"><u>*"Leave no trace"*</u></a>, una filosofía que aboga por dejar el menor impacto posible en la naturaleza al realizar actividades al aire libre.
+A su regreso a la ciudad, y en lo que llamamos “El Descanso del Museo Nómada”, funciona como una sala más del museo principal, la “Sala Cero” y reposa en una plaza dura construida de concreto visto que, mediante el encuentro de varios paralelepípedos, genera una serie de espacios agradables y un jardín tropical para los visitantes. En este nuevo espacio público para la ciudad pueden generarse actividades como; bailes, proyección de películas, sesiones de skate y más.
 
 <br />
 
-![Guía del centro de visitantes y estudiantes en una charla mientras recorren los senderos](/images/posts/dia-de-la-tierra-2023/DSC08418.jpg)
-*Guía del centro de visitantes y estudiantes en una charla mientras recorren los senderos*
-
-<br />
-
-Desde Garúa, creemos firmemente que eventos como este son esenciales para promover la conciencia ambiental entre los futuros arquitectos de nuestro país. La preservación del medio ambiente y la promoción de prácticas sostenibles en la industria del diseño y la construcción son pilares fundamentales en nuestra filosofía como estudio de arquitectura.
+Es de esta manera que hemos convertido la carga comercial transportada por estos contenedores en una carga más importante para el espíritu humano, la carga cultural, artística y educativa.
 
 <br />
 
@@ -63,4 +56,3 @@ Desde Garúa, creemos firmemente que eventos como este son esenciales para promo
 
 <br />
 
-Esperamos que esta actividad sea la primera de muchas en las que podamos compartir nuestros conocimientos y experiencias en torno a la arquitectura sostenible y la preservación del medio ambiente. Felicitamos a ONEA por la organización de este evento y esperamos seguir trabajando juntos en pro de una arquitectura más sostenible y consciente con el medio ambiente.

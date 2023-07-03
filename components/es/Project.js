@@ -15,7 +15,7 @@ export default function Project({ project }) {
             </div>
             <div className="mt-4 ml-0 w-full sm:w-1/3 sm:ml-32 sm: flex flex-col justify-end">
             <h3 className="text-2xl md:text-4xl mb-2 md:mb-6 mt-2 md:mt-6 hover:underline hover:underline-offset-8">{project.frontmatter.title}</h3>
-            <p className="text-xs">{project.frontmatter.lugar}</p>
+            <p className="text-xs">{project.frontmatter.location}</p>
             </div>
         </div>
     </Link>

@@ -5,17 +5,17 @@ status: ''
 excerpt: ''
 cover_image: '/images/portafolio/yoga-house-on-a-cliff/yhoac-tn-min.jpg'
 alt: 'Yoga House on a Cliff'
-author:
+authors:
 - 'Álvaro Guerra Jované'
 - 'Ámbar Calvo'
 - 'Mónica Henríquez'
 - 'Diana Vázquez'
-lugar: 'Oleiros, Portugal'
-tipo: 'Concurso, finalista'
-area: '358.00'
-Fotos:
+location: 'Oleiros, Portugal'
+type: 'Concurso, finalista'
+area: '358.00 m²'
+photosAuthors:
 - ''
-Publicaciones:
+publications:
 - ''
 - ''
 - ''
