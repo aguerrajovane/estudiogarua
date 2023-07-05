@@ -29,11 +29,11 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    <div className="relative w-full h-full max-h-full overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity ${
+          className={`absolute top-0 left-0  w-full h-full transition-opacity ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         >

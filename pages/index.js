@@ -18,32 +18,34 @@ const IndexPage = () => {
   }, []);
 
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center">
-      <div ref={containerRef}>
-        <img
-          src="/logo.svg"
-          alt="Logo"
-          className="relative invert h-4 lg:h-6 mx-auto opacity-100"
-          key="logo"
-        />
-      </div>
+    <>
+      <div className="bg-black min-h-screen flex items-center justify-center">
+        <div ref={containerRef}>
+          <img
+            src="/logo.svg"
+            alt="Logo"
+            className="relative invert h-4 lg:h-6 mx-auto opacity-100 mb-10 sm:mb-0"
+            key="logo"
+          />
+        </div>
 
-      <style jsx>{`
-        .fade-out {
-          animation: fade-out 0.5s ease-out;
-          opacity: 0;
-        }
-
-        @keyframes fade-out {
-          from {
-            opacity: 1;
-          }
-          to {
+        <style jsx>{`
+          .fade-out {
+            animation: fade-out 0.5s ease-out;
             opacity: 0;
           }
-        }
-      `}</style>
-    </div>
+
+          @keyframes fade-out {
+            from {
+              opacity: 1;
+            }
+            to {
+              opacity: 0;
+            }
+          }
+        `}</style>
+      </div>
+    </>
   );
 };
 
