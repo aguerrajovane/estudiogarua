@@ -14,7 +14,7 @@ export default function Portafolio ({ projects }) {
         title="Garúa | Portafolio"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
-          url: 'https://www.estudiogarua.com/es/blog',
+          url: 'https://www.estudiogarua.com/es/portafolio',
           title: 'Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
