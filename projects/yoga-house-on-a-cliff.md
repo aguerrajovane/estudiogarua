@@ -2,7 +2,7 @@
 title: 'Yoga House on a Cliff'
 date: '2020'
 status: ''
-excerpt: ''
+excerpt: 'Propuesta para concurso internacional de arquitectura titulado “Yoga House on a Cliff” ubicado en Oleiros, Portugal.'
 cover_image: '/images/portafolio/yoga-house-on-a-cliff/yhoac-tn-min.jpg'
 alt: 'Yoga House on a Cliff'
 authors:

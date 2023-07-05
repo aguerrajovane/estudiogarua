@@ -28,10 +28,10 @@ export default function ProjectPage({
   return (
     <Layout>
       <NextSeo
-        title={`Garúa | ${title}`}
+        title={`${title}  | Garúa`}
         openGraph={{
           url: `https://www.estudiogarua.com/es/portafolio/${slug}`,
-          title: `Garúa | ${title} `,
+          title: `${title} | Garúa`,
           description: `${excerpt}`,
           siteName: 'Garúa',
           type: 'website',

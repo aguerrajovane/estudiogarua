@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <>
       <NextSeo
-          title= "Garúa | Inicio"
+          title= "Inicio  | Garúa"
           description="Estudio de arquitectura, diseño urbano y construcción"
           openGraph={{
               type: 'website',

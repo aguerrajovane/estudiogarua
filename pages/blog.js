@@ -11,11 +11,11 @@ export default function Blog ({ posts }) {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Blog"
+        title="Blog | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/blog',
-          title: 'Garúa',
+          title: 'Blog | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}

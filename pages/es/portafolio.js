@@ -11,11 +11,11 @@ export default function Portafolio ({ projects }) {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Portafolio"
+        title="Portafolio | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/portafolio',
-          title: 'Garúa',
+          title: 'Portafolio | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}

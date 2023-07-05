@@ -10,11 +10,11 @@ const Privacidad = () => {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Política de Privacidad"
+        title="Política de Privacidad | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/privacidad',
-          title: 'Garúa',
+          title: 'Política de Privacidad | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}

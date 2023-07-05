@@ -16,11 +16,11 @@ const Nosotros = () => {
   return (
     <> 
       <NextSeo
-        title="Garúa | Nosotros"
+        title="Nosotros  | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/nosotros',
-          title: 'Garúa',
+          title: 'Nosotros | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}

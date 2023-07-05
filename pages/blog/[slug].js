@@ -16,10 +16,10 @@ export default function PostPage({
   return (
     <Layout>
       <NextSeo
-        title={`Garúa | ${title}`}
+        title={`${title} | Garúa`}
         openGraph={{
           url: `https://www.estudiogarua.com/blog/${slug}`,
-          title: `Garúa | ${title} `,
+          title: `${title} | Garúa`,
           description:`${excerpt}`,
           siteName: 'Garúa',
           type: 'article',

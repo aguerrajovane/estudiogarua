@@ -2,7 +2,7 @@
 title: 'Museo Nómada'
 date: '2019'
 status: 'Construido'
-excerpt: ''
+excerpt: 'Edificio itinerante diseñado a partir de la reutilización de 2 antiguos contenedores de carga marítima que viajan como museo por todo Panamá.'
 cover_image: '/images/portafolio/museo-nomada/mn-tn-min.jpg'
 alt: 'Museo Nómada'
 authors:
