@@ -31,7 +31,7 @@ El Museo de Arte Contemporáneo de Panamá, desde hace unos años, tiene la misi
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio//museo-nomada/8895_01.jpg)
+![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_01.jpg)
 *Fotografía Fernando Alda*
 
 <br />
@@ -40,7 +40,7 @@ La idea generadora del proyecto es la de reutilizar dos contenedores de carga es
 
 <br />
 
-![Museo Nómada. Diagrama isométrico](/images/portafolio//museo-nomada/mn-isometrico.jpg)
+![Museo Nómada. Diagrama isométrico](/images/portafolio/museo-nomada/mn-isometrico.jpg)
 *Diagrama isométrico*
 
 <br />
@@ -49,7 +49,7 @@ El interior de este espacio es completamente tratado y acabado con Oriented Stan
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio//museo-nomada/8895_22.jpg)
+![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_22.jpg)
 *Fotografía Fernando Alda*
 
 <br />
@@ -58,7 +58,7 @@ Este museo satélite transporta sus exhibiciones acomodando todo su contenido en
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio//museo-nomada/mn-animal-03.jpg)
+![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-03.jpg)
 *Fotografía Cine Animal*
 
 <br />
@@ -67,7 +67,7 @@ A su regreso a la ciudad, y en lo que llamamos “El Descanso del Museo Nómada�
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio//museo-nomada/8895_28.jpg)
+![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_28.jpg)
 *Fotografía Fernando Alda*
 
 <br />
@@ -76,52 +76,52 @@ Es de esta manera que hemos convertido la carga comercial transportada por estos
 
 ## Planos y diagramas
 
-![Museo Nómada. Localización](/images/portafolio//museo-nomada/mn-localizacion.jpg)
+![Museo Nómada. Localización](/images/portafolio/museo-nomada/mn-localizacion.jpg)
 *Localización*
 
 <br />
 
-![Museo Nómada. Planta](/images/portafolio//museo-nomada/Planta.jpg)
+![Museo Nómada. Planta](/images/portafolio/museo-nomada/mn-planta.jpg)
 *Planta*
 
 <br />
 
-![Museo Nómada. Alzado frontal](/images/portafolio//museo-nomada/mn-alzado-frontal.jpg)
+![Museo Nómada. Alzado frontal](/images/portafolio/museo-nomada/mn-alzado-frontal.jpg)
 *Alzado frontal*
 
 <br />
 
-![Museo Nómada. Alzado lateral](/images/portafolio//museo-nomada/mn-alzado-lateral.jpg)
+![Museo Nómada. Alzado lateral](/images/portafolio/museo-nomada/mn-alzado-lateral.jpg)
 *Alzado lateral*
 
 <br />
 
-![Museo Nómada. Corte longitudinal](/images/portafolio//museo-nomada/mn-corte-longitudinal.jpg)
+![Museo Nómada. Corte longitudinal](/images/portafolio/museo-nomada/mn-corte-longitudinal.jpg)
 *Corte longitudinal*
 
 <br />
 
-![Museo Nómada. Isométrico](/images/portafolio//museo-nomada/mn-isometrico.jpg)
+![Museo Nómada. Isométrico](/images/portafolio/museo-nomada/mn-isometrico.jpg)
 *Diagrama isométrico*
 
 ## Fotos
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio//museo-nomada/mn-animal-04.jpg)
+![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-04.jpg)
 *Fotografía Cine Animal*
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio//museo-nomada/mn-animal-01.jpg)
+![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-01.jpg)
 *Fotografía Cine Animal*
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio//museo-nomada/mn-animal-03.jpg)
+![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-03.jpg)
 *Fotografía Cine Animal*
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio//museo-nomada/mn-animal-02.jpg)
+![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-02.jpg)
 *Fotografía Cine Animal*
 
 <br />

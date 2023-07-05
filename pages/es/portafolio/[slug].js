@@ -15,14 +15,12 @@ export default function ProjectPage({
     alt,
     excerpt,
     authors,
-    author_description,
     publications,
     area,
     status,
     photosAuthors,
     location,
     type,
-    images
   },
   slug,
   content
@@ -39,10 +37,10 @@ export default function ProjectPage({
           type: 'website',
           images: [
             {
-              url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png", // hacerlo dinamico
+              url: `${process.env.NEXT_PUBLIC_BASE_URL}${cover_image}`,
               width: 500,
               height: 500,
-              alt: "Garúa", // hacerlo dinamico
+              alt: `${alt}`,
             },
           ],
         }}
