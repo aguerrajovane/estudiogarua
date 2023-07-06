@@ -31,8 +31,8 @@ El Museo de Arte Contemporáneo de Panamá, desde hace unos años, tiene la misi
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_01.jpg)
-*Fotografía Fernando Alda*
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_01.jpg)
+*© Fernando Alda*
 
 <br />
 
@@ -49,8 +49,8 @@ El interior de este espacio es completamente tratado y acabado con Oriented Stan
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_22.jpg)
-*Fotografía Fernando Alda*
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_22.jpg)
+*© Fernando Alda*
 
 <br />
 
@@ -58,8 +58,8 @@ Este museo satélite transporta sus exhibiciones acomodando todo su contenido en
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-03.jpg)
-*Fotografía Cine Animal*
+![Museo Nómada. © Cine Animal](/images/portafolio/museo-nomada/mn-animal-03.jpg)
+*© Cine Animal*
 
 <br />
 
@@ -67,8 +67,8 @@ A su regreso a la ciudad, y en lo que llamamos “El Descanso del Museo Nómada�
 
 <br />
 
-![Museo Nómada. Fotografía Fernando Alda](/images/portafolio/museo-nomada/8895_28.jpg)
-*Fotografía Fernando Alda*
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_28.jpg)
+*© Fernando Alda*
 
 <br />
 
@@ -106,22 +106,178 @@ Es de esta manera que hemos convertido la carga comercial transportada por estos
 
 ## Fotos
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-04.jpg)
-*Fotografía Cine Animal*
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_01.jpg)
+*© Fernando Alda*
 
 <br />
 
-![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-01.jpg)
-*Fotografía Cine Animal*
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_02.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_03.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_04.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_05.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_06.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_07.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_08.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_09.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_10.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_11.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_12.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_13.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_14.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_15.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_16.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_17.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_18.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_19.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_20.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_21.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_22.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_23.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_24.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_25.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_26.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_27.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_28.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_29.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_30.jpg)
+*© Fernando Alda*
+
+<br />
+
+![Museo Nómada. © Fernando Alda](/images/portafolio/museo-nomada/8895_32.jpg)
+*© Fernando Alda*
+
+<br />
+
+
+
+
+![Museo Nómada. © Cine Animal](/images/portafolio/museo-nomada/mn-animal-04.jpg)
+*© Cine Animal*
+
+<br />
+
+![Museo Nómada. © Cine Animal](/images/portafolio/museo-nomada/mn-animal-01.jpg)
+*© Cine Animal*
 
 <br />
 
 ![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-03.jpg)
-*Fotografía Cine Animal*
+*© Cine Animal*
 
 <br />
 
 ![Museo Nómada. Fotografía Cine Animal](/images/portafolio/museo-nomada/mn-animal-02.jpg)
-*Fotografía Cine Animal*
-
-<br />
+*© Cine Animal*
