@@ -1,6 +1,6 @@
 import { DefaultSeo } from 'next-seo';
 import "tw-elements/dist/css/tw-elements.min.css";
-import Head from 'next/head';
+import Script from 'next/script';
 import '../app/global.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -29,25 +29,23 @@ export default function MyApp({ Component, pageProps }) {
                     cardType: 'summary_large_image',
                 }}
             />
-            <Head>
-                <script 
-                    async
+                <Script 
+                    strategy="afterInteractive"
                     scr={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                 />
-                <script 
-                    dangerouslySetInnerHTML={{
-                    __html: `
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                            page_path:window.location.pathname
-                        });
-                    `,
-                    }}
-                />
-            </Head>
-
+                <Script 
+                    id="google-analytics" strategy="afterInteractive">
+                        {`
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                                page_path:window.location.pathname
+                            });
+                        `}
+                        
+                </Script>,
+                
             <Component {...pageProps} />
         </>
     )

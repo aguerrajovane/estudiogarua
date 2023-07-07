@@ -89,6 +89,18 @@ export default function ContactForm() {
           onChange={(event) => setMessage(event.target.value)}
           required
         ></textarea>
+
+          <div className="mb-6">
+            <label className="flex items-center">
+              <input
+                type="checkbox"
+                className="form-checkbox mr-2 h-4 w-4"
+                required
+              />
+              Al marcar esta casilla, acepta nuestra<Link href="/es/privacidad" target="_blank" className="underline underline-offset-4 ml-2"> política de privacidad</Link>
+            </label>
+          </div>
+
         <ButtonPrimary className="" type="submit">
           Enviar
         </ButtonPrimary>
