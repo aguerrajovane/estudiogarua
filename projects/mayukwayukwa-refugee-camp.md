@@ -2,7 +2,7 @@
 title: 'Mayukwayukwa Refugee Camp'
 date: '2023'
 status: ''
-excerpt: ''
+excerpt: 'Descubre el Centro de Desarrollo Sostenible Mayukwayukwa en Shibanga. Una propuesta que promueve la participación y el crecimiento sostenible. Empoderamos a las familias refugiadas con técnicas de construcción y estrategias de arquitectura pasiva.'
 cover_image: '/images/portafolio/mayukwayukwa-refugee-camp/wrc-tn-min.jpeg'
 alt: 'Wayukwayukwa Refugee Camp'
 authors:
@@ -12,7 +12,7 @@ authors:
 - 'Sthefanny Ríos'
 location: 'Provincia del Oeste, Zambia'
 type: 'Concurso, finalista'
-area: ' m²'
+area: '1,300.00 m²'
 photosAuthors:
 - ''
 publications:
@@ -21,40 +21,67 @@ publications:
 - ''
 ---
 
-En Garúa estamos comprometidos con la arquitectura sostenible y la preservación del medio ambiente. Por ello, fue un honor para nosotros formar parte del evento organizado por la <a href="https://instagram.com/oneapanama" target="_blank"> <u>Organización Nacional de Estudiantes de Arquitectura de Panamá (ONEA)</u></a> para conmemorar el Día de la Tierra en el Centro de Visitantes <a href="https://pipelineroad.org/en/" target="_blank"><u>Panama Rainforest Discovery Center</u></a> en Gamboa.
+El proyecto del Centro de Desarrollo Sostenible Mayukwayukwa busca transformar Shibanga en un lugar de crecimiento sostenible mediante la participación activa de la población local. Nuestro enfoque se centra en empoderar a las familias refugiadas, brindándoles las herramientas necesarias para intervenir de forma individual en la planificación y construcción de sus hogares.
 
 <br />
 
-![Héctor Ayarza conversa con estudiantes de arquitectura](/images/posts/dia-de-la-tierra-2023/DSC08373.jpg)
-*Héctor Ayarza conversa con estudiantes de arquitectura*
+El centro será un ejemplo destacado de intervención y construcción utilizando estrategias de arquitectura pasiva. Aprovecharemos los recursos disponibles en la zona para satisfacer las necesidades de las familias refugiadas, promoviendo un entorno sostenible y autosuficiente.
 
 <br />
 
-Tuve la oportunidad de compartir junto a Patrick Dillon, también arquitecto, experiencias y proyectos en ejecución relacionados con la arquitectura tropical y su relación con el medio ambiente. Los estudiantes de arquitectura de Panamá tuvieron la oportunidad de dialogar con nosotros y conocer más sobre la importancia de construir de manera sostenible en un entorno tropical.
+Además de funcionar como un espacio para talleres y capacitación en técnicas de construcción, el Centro de Desarrollo Sostenible Mayukwayukwa también será un punto de encuentro cultural. Aquí, los diversos grupos de refugiados establecidos en la comunidad podrán compartir y celebrar sus tradiciones, promoviendo la integración y el intercambio de conocimientos.
 
 <br />
 
-![Patrick Dillon y Héctor Ayarza conversan con estudiantes de arquitectura](/images/posts/dia-de-la-tierra-2023/DSC08385.jpg)
-*Patrick Dillon y Héctor Ayarza conversan con estudiantes de arquitectura*
+Nuestro objetivo final es crear un modelo de desarrollo sostenible que inspire a otras comunidades a seguir el mismo camino. Mediante la participación activa y el fortalecimiento de capacidades, Shibanga se convertirá en un ejemplo de crecimiento equitativo, respetuoso con el medio ambiente y enriquecedor para todos sus habitantes.
+
 
 <br />
 
-La actividad no solo se limitó a las ponencias de arquitectura. Los estudiantes también realizaron un recorrido guiado por los guías del centro, quienes les mostraron la biodiversidad de la zona y les explicaron la importancia de cuidar el ecosistema. Además, se contó con la presencia de Carlos Saavedra, quien impartió una charla sobre el <a href="https://lnt.org/" target="_blank"><u>*"Leave no trace"*</u></a>, una filosofía que aboga por dejar el menor impacto posible en la naturaleza al realizar actividades al aire libre.
 
 <br />
 
-![Guía del centro de visitantes y estudiantes en una charla mientras recorren los senderos](/images/posts/dia-de-la-tierra-2023/DSC08418.jpg)
-*Guía del centro de visitantes y estudiantes en una charla mientras recorren los senderos*
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-01.png)
+*Mawuywayukwa Refugee Camp*
 
 <br />
 
-Desde Garúa, creemos firmemente que eventos como este son esenciales para promover la conciencia ambiental entre los futuros arquitectos de nuestro país. La preservación del medio ambiente y la promoción de prácticas sostenibles en la industria del diseño y la construcción son pilares fundamentales en nuestra filosofía como estudio de arquitectura.
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-02.png)
+*Mawuywayukwa Refugee Camp*
 
 <br />
 
-![Asistentes del foro](/images/posts/dia-de-la-tierra-2023/DSC08378.jpg)
-*Asistentes del foro*
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-03.png)
+*Mawuywayukwa Refugee Camp*
 
 <br />
 
-Esperamos que esta actividad sea la primera de muchas en las que podamos compartir nuestros conocimientos y experiencias en torno a la arquitectura sostenible y la preservación del medio ambiente. Felicitamos a ONEA por la organización de este evento y esperamos seguir trabajando juntos en pro de una arquitectura más sostenible y consciente con el medio ambiente.
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-04.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
+
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-05.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
+
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-06.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
+
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-07.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
+
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-08.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
+
+![Mawuywayukwa Refugee Camp](/images/portafolio//mayukwayukwa-refugee-camp/mrc-09.png)
+*Mawuywayukwa Refugee Camp*
+
+<br />
