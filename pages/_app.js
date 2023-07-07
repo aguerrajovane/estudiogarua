@@ -1,6 +1,6 @@
 import { DefaultSeo } from 'next-seo';
 import "tw-elements/dist/css/tw-elements.min.css";
-
+import Head from 'next/head';
 import '../app/global.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -29,7 +29,25 @@ export default function MyApp({ Component, pageProps }) {
                     cardType: 'summary_large_image',
                 }}
             />
-            
+            <Head>
+                <script 
+                    async
+                    scr={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+                />
+                <script 
+                    dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                            page_path:window.location.pathname
+                        });
+                    `,
+                    }}
+                />
+            </Head>
+
             <Component {...pageProps} />
         </>
     )
