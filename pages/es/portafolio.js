@@ -11,11 +11,11 @@ export default function Portafolio ({ projects }) {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Portafolio"
+        title="Portafolio | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/portafolio',
-          title: 'Garúa',
+          title: 'Portafolio | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}
@@ -34,6 +34,24 @@ export default function Portafolio ({ projects }) {
           </div>
         </div>
       </main>
+      <style jsx>{`
+        .fade-in-up {
+          animation: fade-in-up 0.8s ease-out;
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </Layout>
   )
 }

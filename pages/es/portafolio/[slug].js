@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 export default function ProjectPage({
   frontmatter: {
@@ -25,13 +25,16 @@ export default function ProjectPage({
   slug,
   content
 }) {
+
+  const html = marked(content, { mangle: false });
+
   return (
     <Layout>
       <NextSeo
-        title={`Garúa | ${title}`}
+        title={`${title}  | Garúa`}
         openGraph={{
           url: `https://www.estudiogarua.com/es/portafolio/${slug}`,
-          title: `Garúa | ${title} `,
+          title: `${title} | Garúa`,
           description: `${excerpt}`,
           siteName: 'Garúa',
           type: 'website',
@@ -47,15 +50,15 @@ export default function ProjectPage({
       />
       <div className="relative">
         <div className="max-w-7xl mx-auto">
-          <div className="aspect-w-16 aspect-h-9">
+          <div className="aspect-w-16 aspect-h-9 px-2 md:px-0">
             <Image
               src={cover_image}
               alt={alt}
               layout="responsive"
-              objectFit="contain"
-              className="px-2 sm:px-0"
+              objectFit="cover"
               width={1200}
               height={800}
+              priority
             />
           </div>
         </div>
@@ -213,7 +216,7 @@ export default function ProjectPage({
             </div>
             {/*Contenido del Markdown*/}
             <div className="mt-4">
-              <div className="leading-relaxed" dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+              <div className="leading-relaxed" dangerouslySetInnerHTML={{ __html: html }}></div>
             </div>
           </div>
         </div>

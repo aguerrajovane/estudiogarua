@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <>
       <NextSeo
-          title= "Garúa | Inicio"
+          title= "Inicio  | Garúa"
           description="Estudio de arquitectura, diseño urbano y construcción"
           openGraph={{
               type: 'website',
@@ -54,9 +54,9 @@ const Home = () => {
         {/* Header */}
         <header className="flex flex-col w-full max-w-6xl mx-auto justify-between sm:pl-28 sm: py-8 pl-4 pr-4">
           <div className="w-full md:w-3/4  pb-12 pt-0 md:pb-24 md:pt-10">
-            <h1 className="text-5xl leading-snug md:leading-normal md:text-6xl font-bold  mb-4 fade-in-up">
+            <h1 className="text-5xl leading-snug md:leading-normal md:text-6xl font-bold mb-4 fade-in-up">
               Diseñamos y construimos espacios sostenibles.</h1>
-            <p className="text-base leading-relaxed">Estudio de arquitectura + diseño urbano + construcción</p>
+            <p className="text-base leading-relaxed">Estudio de Arquitectura + Diseño urbano + Construcción</p>
           </div>
         </header>
         {/* Contenido */}

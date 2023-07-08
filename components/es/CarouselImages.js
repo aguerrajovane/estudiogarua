@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image"
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -42,6 +42,7 @@ const Carousel = ({ images }) => {
             alt={image.alt}
             layout="fill"
             objectFit="cover"
+            priority
           />
         </div>
       ))}

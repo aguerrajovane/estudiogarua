@@ -21,11 +21,11 @@ const contacto = () => {
   return (
     <>
       <NextSeo
-        title="Garúa | Contacto"
+        title="Contacto | Garúa"
         description="Estudio de arquitectura, diseño urbano y construcción."
         openGraph={{
           url: 'https://www.estudiogarua.com/es/contacto',
-          title: 'Garúa',
+          title: 'Contacto | Garúa',
           description: 'Estudio de arquitectura, diseño urbano y construcción.',
           siteName: 'Garúa',
         }}
@@ -48,6 +48,24 @@ const contacto = () => {
           <FooterContacto />
         </div>
       </div>
+      <style jsx>{`
+        .fade-in-up {
+          animation: fade-in-up 0.8s ease-out;
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </>
   )
 }

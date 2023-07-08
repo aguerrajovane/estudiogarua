@@ -13,13 +13,16 @@ export default function PostPage({
   slug, 
   content,
 }) {
+
+  const html = marked(content, { mangle: false });
+
   return (
     <Layout>
       <NextSeo
-        title={`Garúa | ${title}`}
+        title={`${title} | Garúa`}
         openGraph={{
           url: `https://www.estudiogarua.com/blog/${slug}`,
-          title: `Garúa | ${title} `,
+          title: `${title} | Garúa`,
           description:`${excerpt}`,
           siteName: 'Garúa',
           type: 'article',
@@ -44,7 +47,7 @@ export default function PostPage({
           <div className="w-[15rem] bg-black">
             {/*Author*/}
             <div className="mt-0 mx-1">
-              <img
+              <Image
                 src={author_image} 
                 width={80}
                 height={80}
@@ -109,11 +112,12 @@ export default function PostPage({
                 width={640}
                 height={640}
                 alt={alt}
+                priority
               />
             </div>
             {/*Markdown*/}
             <div className="mt-4">
-              <div className="leading-relaxed" dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+            <div className="leading-relaxed" dangerouslySetInnerHTML={{ __html: html }}></div>
             </div>
           </div>
         </div>  
