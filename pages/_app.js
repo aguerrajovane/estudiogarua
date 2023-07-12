@@ -1,13 +1,14 @@
 import { DefaultSeo } from 'next-seo';
 import "tw-elements/dist/css/tw-elements.min.css";
-
+import Script from 'next/script';
 import '../app/global.css'
 
 export default function MyApp({ Component, pageProps }) {
     return (
         <>
             <DefaultSeo
-                title= "Garúa" 
+                title= "Garúa"
+                description="Estudio de arquitectura, diseño urbano y construcción"
                 openGraph={{
                     type: 'website',
                     locale: 'es_PA',
@@ -15,7 +16,7 @@ export default function MyApp({ Component, pageProps }) {
                     siteName: 'Garúa',
                     images: [
                         {
-                          url: "https://raw.githubusercontent.com/aguerrajovane/estudiogarua/main/public/images/logo.png",
+                          url: `${process.env.NEXT_PUBLIC_BASE_URL}/images/logo.png`,
                           width: 500,
                           height: 500,
                           alt: "Garúa",
@@ -28,7 +29,23 @@ export default function MyApp({ Component, pageProps }) {
                     cardType: 'summary_large_image',
                 }}
             />
-            
+                <Script 
+                    scr='https://www.googletagmanager.com/gtag/js?id=G-SVFZS1JQPT'
+                    strategy="afterInteractive"
+                />
+                <Script 
+                    id="google-analytics" 
+                    strategy="afterInteractive"
+                    >
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-SVFZS1JQPT');
+                    `}
+                        
+                </Script>
+                
             <Component {...pageProps} />
         </>
     )

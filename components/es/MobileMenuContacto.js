@@ -104,7 +104,7 @@ const Modal = () => {
                       Portafolio
                     </Link>
                     <Link
-                      href="/es/blog"
+                      href="/blog"
                       className="block px-0 py-2 text-4xl hover:underline hover:underline-offset-8"
                     >
                       Blog

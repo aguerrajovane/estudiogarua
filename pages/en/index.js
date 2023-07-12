@@ -9,13 +9,13 @@ const Home = () => {
   return (
     <Layout> 
       <NextSeo
-        title="Garúa | Inicio"
+        title="Home | Garúa"
         description="Architecture, Urban design and Construction Studio."
         openGraph={{
           url: 'https://www.estudiogarua.com/en',
           title: 'Garúa',
           description: 'Architecture, Urban design and Construction Studio.',
-          siteName: 'Garúa',
+          siteName: 'Home | Garúa',
           locale: 'en_US',
         }}
       />
