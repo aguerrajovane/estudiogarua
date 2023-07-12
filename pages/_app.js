@@ -30,19 +30,19 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             />
                 <Script 
+                    scr='https://www.googletagmanager.com/gtag/js?id=G-SVFZS1JQPT'
                     strategy="afterInteractive"
-                    scr={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                 />
                 <Script 
-                    id="google-analytics" strategy="afterInteractive">
-                        {`
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                                page_path:window.location.pathname
-                            });
-                        `}
+                    id="google-analytics" 
+                    strategy="afterInteractive"
+                    >
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-SVFZS1JQPT');
+                    `}
                         
                 </Script>
                 
