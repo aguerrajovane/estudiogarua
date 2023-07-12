@@ -1,9 +1,19 @@
 import { DefaultSeo } from 'next-seo';
+import { useEffect } from "react";
+import TagManager from "react-gtm-module";
 import "tw-elements/dist/css/tw-elements.min.css";
-import Script from 'next/script';
 import '../app/global.css'
 
-export default function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
+    const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+    const tagManagerArgs = {
+        gtmId,
+    };
+
+    useEffect(() => {
+        TagManager.initialize(tagManagerArgs);
+    }, []);
+
     return (
         <>
             <DefaultSeo
@@ -29,24 +39,10 @@ export default function MyApp({ Component, pageProps }) {
                     cardType: 'summary_large_image',
                 }}
             />
-                <Script 
-                    scr='https://www.googletagmanager.com/gtag/js?id=G-SVFZS1JQPT'
-                    strategy="afterInteractive"
-                />
-                <Script 
-                    id="google-analytics" 
-                    strategy="afterInteractive"
-                    >
-                    {`
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-SVFZS1JQPT');
-                    `}
-                        
-                </Script>
-                
             <Component {...pageProps} />
+        
         </>
     )
-  }
+}
+
+export default MyApp;
